@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="20" x2="475" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9F7EC"/>
+      <stop offset="1" stop-color="#EEE5FF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="178" y1="109" x2="356" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152447"/>
+      <stop offset="1" stop-color="#334C79"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="12" width="492" height="296" rx="34" fill="url(#bg)"/>
+  <circle cx="430" cy="72" r="32" fill="#fff" fill-opacity=".72"/>
+  <path d="M430 48v48M406 72h48" stroke="#8B63E8" stroke-linecap="round" stroke-width="5"/>
+  <rect x="68" y="50" width="130" height="82" rx="16" fill="#fff" fill-opacity=".86" transform="rotate(-8 68 50)"/>
+  <path d="m93 94 13-16 13 9 21-25" stroke="#16845F" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="92" cy="109" r="5" fill="#8C63EA"/>
+  <rect x="337" y="174" width="111" height="76" rx="14" fill="#fff" fill-opacity=".9" transform="rotate(8 337 174)"/>
+  <path d="M363 201h50M360 216h35" stroke="#64708C" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="420" cy="228" r="8" fill="#2AC39A"/>
+  <rect x="166" y="91" width="190" height="132" rx="17" fill="#fff"/>
+  <rect x="176" y="101" width="170" height="109" rx="11" fill="url(#screen)"/>
+  <path d="M153 224h216l-17 19H171l-18-19Z" fill="#8D9AB5"/>
+  <rect x="224" y="228" width="72" height="5" rx="2.5" fill="#DDE5F3"/>
+  <path d="M201 132h72M201 148h45" stroke="#A8B6D1" stroke-linecap="round" stroke-width="6"/>
+  <rect x="201" y="165" width="40" height="28" rx="7" fill="#27D3A5"/>
+  <path d="M212 179h18M221 171v16" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="389" cy="118" r="28" fill="#F6B94C"/>
+  <path d="M378 118h22M389 107v22" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <path d="M97 220c9-17 24-25 43-25" stroke="#A37AF1" stroke-linecap="round" stroke-width="6" stroke-dasharray="2 12"/>
+  <circle cx="107" cy="253" r="9" fill="#21B88C"/>
+  <circle cx="137" cy="262" r="5" fill="#8D63E9"/>
+</svg>

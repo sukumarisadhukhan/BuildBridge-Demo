@@ -1,0 +1,14 @@
+BuildBridge - Real authentication quick start
+
+1. Extract this ZIP. package.json is at the top level.
+2. Open the extracted folder itself in VS Code.
+3. Run `dir package.json` and confirm package.json is listed.
+4. Copy your configured .env.local into this folder.
+5. In Supabase SQL Editor, run database-schema.sql once on a fresh project, then run supabase/auth-setup-repair.sql.
+6. Run `npm.cmd install` and then `npm.cmd run dev` in the VS Code terminal.
+7. Open http://localhost:3000 and create a real account or sign in. No preview or demo access is provided.
+
+For email confirmation, check your inbox and confirm the account before signing in.
+For Google, GitHub, LinkedIn OIDC or Microsoft/Azure, configure the provider Client ID and Secret in Supabase Authentication > Sign In / Providers and add http://localhost:3000/auth/callback to Supabase Auth Redirect URLs.
+
+To stop a running server, press Ctrl+C on your keyboard. Do not type Ctrl+C as a command.
